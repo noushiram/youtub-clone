@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+}
+/* header style */
+.material-symbols-outlined{
+    color: rgb(96,96,96);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+   margin-top: -20px;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    height: 66px;
+    width: 121px;
+    margin-left: 15px;
+}
+logo i{
+    margin-top: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search form{
+    border: 1px solid #ddd;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    margin-top: 10px;
+}
+.search input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+.search button{
+   
+    border: none;
+    height: 45px
+   
+}
+.search{
+    display: flex;
+    align-items: center;
+   
+}
+.search i{
+    width: 49px;
+}
+  .search .mic{
+    margin-left: 20px;
+    width: 57px;
+    height: 51px;
+    margin-top: 15px;
+    border-radius: 30px;
+    padding: 5px;
+    padding-top: 11px;
+    color: black;
+}
+.icons{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 75px;
+
+}
+.icons i{
+    margin-left: 21px;
+}
+.icons button{
+    border-radius: 49px;
+    width: 42px;
+    text-align: center;
+    padding-left: 2px;
+    background: #f54290;
+    color: white;
+    height: 39px;
+    border: none;
+   
+ margin-left: 15px;
+}
+ul li{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1px;
+  width: 202px;
+}
+ul .one{
+    margin-top: 6px;
+  display: flex;
+  justify-content:flex-start ;
+  padding: 10px;
+ 
+
+}
+ul span{
+   padding-left: 15px;
+   color: black;
+   font-weight: 100px;
+  
+}
+.categorytwo{
+    margin-top: 1px;
+    border-top: 1px solid #dddd;
+}
+.categorythree{
+    margin-top: 1px;
+    border-top: 1px solid #dddd;
+
+}
+.btns .styles{
+    padding: 12px;
+    background-color: #dddd;
+    border: none;
+    border-radius: 7px;
+    width: 92px;
+    text-align: center;
+    height: 45px;
+    margin-left: 19px;
+}
+.styles a{
+    color:gray
+}
+.col-md-2{
+    width: 100px;
+}
+iframe{
+    width: 349px;
+    border-radius: 5px;
+    padding-left: 8px;
+    margin-left: 11px;
+}
+i:hover{
+    cursor: pointer;
+}
+.one:hover{
+    background-color:#ddd;
+    border-radius: 5px;
+}
+.col-lg-10 .btns{
+    background-color: white;
+}
